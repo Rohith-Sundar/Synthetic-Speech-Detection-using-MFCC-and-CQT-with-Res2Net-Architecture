@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# VSCode settings
+.vscode/
+.angular/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Cache and logs
+*.log
+*.cache
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Model files / large data
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.pkl
+*.npz
+*.npy
+*.png
+
+#Dataset
+raw/
+template-free/
+
+#Others
+models/
+embeddings/
+package-lock.json
